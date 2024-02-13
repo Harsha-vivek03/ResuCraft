@@ -1,0 +1,75 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=poppins');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+*{  font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+   
+    /* border:1px solid black; */
+}
+body::-webkit-scrollbar{
+    display: none;
+  overflow: hidden;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background:rgba(0,0,0,0.07);;
+        }
+
+        header {
+            /* background-color:; */
+            color:darkcyan;
+            padding: 20px;
+            text-align: center;
+           
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+            font-weight: 800;
+        }
+
+        #container1 {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight {
+            background-color: #ffcccb;
+        }
+      
+    
+
+    

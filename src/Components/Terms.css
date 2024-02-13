@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css?family=poppins');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+*{  font-family: 'Poppins', sans-serif;
+margin: 0px;
+padding: 0px;
+
+/* border:1px solid black; */
+}
+body::-webkit-scrollbar{
+display: none;
+overflow: hidden;
+}
+
+.selector-for-some-widget {
+box-sizing: content-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /* background: linear-gradient(to right, #4CAF50, #2196F3); */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container1 {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1{
+    font-weight:700;
+    color: #2196F3;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #2196F3;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #4CAF50;
+}
+
+/* Styling for table of contents */
+.table-of-contents {
+    list-style: none;
+    padding: 0;
+}
+
+.table-of-contents li {
+    margin-bottom: 10px;
+}
+
+.table-of-contents a {
+    color: #777;
+    text-decoration: none;
+}
+
+.table-of-contents a:hover {
+    color: #333;
+}
+
+/* Add page break after the first page */
+@media print {
+    body::after {
+        content: "";
+        page-break-after: always;
+        display: block;
+    }
+}
+
+footer{
+background:rgb(16, 15, 15);
+height: 32vh;
+color: white;
+padding:0px;
+padding-top: 2%;
+
+}
+.foot2{
+color: white;
+font-weight:500;
+position: relative;
+bottom:0%;
+background-color: black;
+text-align: center;
+height: 2.25em;
+align-self: center;
+}
+.foot h3{
+color:white;
+font-weight:700;
+}
+.foot1 li{
+list-style-type: none;
+color:#FFFAFA;
+font-size:0.8rem ;
+line-height:25px;
+}
+.foot1 a{
+text-decoration: none;
+}
+
+
+.navbar{
+box-shadow:0px 2px gray;
+border-radius: 6px;
+
+}
+.nav{
+display:flex;
+justify-content:space-evenly;
+align-items: center;
+margin-top: px;
+width: 50%; 
+position: relative;
+/* left:19vw; */
+}
+
+.nav-item{
+background-color:#FFFAFA;
+border-radius: 10px;
+border:0.000000000000001px solid #D3D3D3;
+
+}
+
+.nav-item:hover{
+color:black;  
+transform: scale(1.1);
+}
+.nav-link:hover{
+color:black;  
+transform: scale(1.1);
+}

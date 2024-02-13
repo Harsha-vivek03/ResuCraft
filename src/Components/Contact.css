@@ -1,0 +1,93 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=poppins');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+*{  font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+   
+    /* border:1px solid black; */
+}
+body::-webkit-scrollbar{
+    display: none;
+  overflow: hidden;
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(220, 230, 234);
+}
+
+        
+        
+
+  
+    .body1 h1{
+        color:tomato;
+        font-weight: 900;
+        margin: 3%;
+        margin-left: 21.5%;
+    }
+    .body2{
+        height:52vh;
+        width:55vw;
+        background-color:white;
+        border-radius: 20px;
+
+    }
+    
+    .body2 p{
+        text-align:center;
+        color:rgb(142, 141, 141);
+        font-size:large;
+    }
+
+    #feedbackContainer {
+            position: relative;
+           
+            text-align: center;
+        }
+
+        .thank-you-message {
+            display: none;
+            padding: 20px;
+            font-size: 2.2em;
+            font-weight:600;
+            color: #fff;
+            background-color: #4CAF50; /* Green background */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        }
+        #thankYouMessage{
+              position: relative;
+              left: 25vh;   
+              top:18vh;      
+            width: 60%;
+        }
+
+/* CSS for the thank you message */
+#thankYouMessage1 {
+    display: none; /* Initially hidden */
+    opacity: 0; /* Initially transparent */
+    transition: opacity 1s ease-in-out; /* Smooth transition for opacity */
+  }
+  
+  /* CSS animation keyframes */
+  @keyframes fadeIn {
+    0% { opacity: 0; } /* Start from transparent */
+    100% { opacity: 1; } /* End with full opacity */
+  }
+  
+  /* Apply the fadeIn animation when the element is visible */
+  #thankYouMessage1.fade-in {
+    display: block; /* Show the element */
+    animation: fadeIn 2.5s ease-in-out forwards; /* Apply the fadeIn animation */
+  }
+  
